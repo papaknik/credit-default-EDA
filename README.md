@@ -4,12 +4,13 @@
 This project presents a thorough Exploratory Data Analysis (EDA) on the UCI Credit Default dataset. The aim is to uncover key patterns, distributions, and statistical
 relationships within the dataset that influence the probability of default on credit card payments.
 Note: This analysis is strictly focused on EDA. No feature engineering or predictive modeling is performed. 
-The goal is to highlight insights and relationships through statistical reasoning and visualization.
-While repayment behavior — particularly the amount and consistency of recent payments — was expectedly the most influential factor in predicting default risk, 
+The goal is to highlight insights and relationships through statistical reasoning and visualization.   
+
+**While repayment behavior — particularly the amount and consistency of recent payments — was expectedly the most influential factor in predicting default risk, 
 a notably interesting finding emerged: customers with lower approved credit limits also exhibited a higher probability of default.
 One possible explanation is that the bank may have implemented an aggressive promotion policy, approving smaller credit limits for customers who might not have otherwise
 qualified. 
-Although the intention may have been to mitigate risk by capping exposure, this strategy appears ineffective in preventing defaults among higher-risk individuals.
+Although the intention may have been to mitigate risk by capping exposure, this strategy appears ineffective in preventing defaults among higher-risk individuals.**
 
 It is important to emphasize that these insights are derived solely from the available dataset, and that correlation does not imply causation. 
 The observed associations may be influenced by unmeasured variables such as income level, savings, employment status, or credit history. 
