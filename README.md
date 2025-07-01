@@ -1,4 +1,5 @@
-Credit Default Risk - Exploratory Data Analysis (EDA)
+Credit Default Risk - Exploratory Data Analysis (EDA)   
+
 📌 Project Overview
 This project presents a thorough Exploratory Data Analysis (EDA) on the UCI Credit Default dataset. The aim is to uncover key patterns, distributions, and statistical
 relationships within the dataset that influence the probability of default on credit card payments.
