@@ -1,4 +1,4 @@
-Credit Default Risk - Exploratory Data Analysis (EDA)   
+# Credit Default Risk - Exploratory Data Analysis (EDA)   
 
 📌 Project Overview   
 This project presents a thorough Exploratory Data Analysis (EDA) on the UCI Credit Default dataset. The aim is to uncover key patterns, distributions, and statistical
@@ -17,37 +17,37 @@ Establishing causality would require additional personal financial data to accou
 
 ________________________________________
 🧾 Dataset Summary   
-•	Source: UCI Machine Learning Repository
-•	Instances: 30,000
-•	Features: 23 (including demographic, financial, and repayment history)
+•	Source: UCI Machine Learning Repository   
+•	Instances: 30,000   
+•	Features: 23 (including demographic, financial, and repayment history)   
 •	Target Variable: default.payment.next.month
 ________________________________________
 
 🎯 Project Objectives   
-•	Understand variable distributions and relationships.
-•	Explore class imbalance in default behavior.
-•	Investigate categorical variables (SEX, EDUCATION, MARRIAGE, etc.).
-•	Analyze numeric variables (LIMIT_BAL, BILL_AMT, PAY_AMT, etc.).
+•	Understand variable distributions and relationships.   
+•	Explore class imbalance in default behavior.   
+•	Investigate categorical variables (SEX, EDUCATION, MARRIAGE, etc.).   
+•	Analyze numeric variables (LIMIT_BAL, BILL_AMT, PAY_AMT, etc.).   
 •	Perform statistical testing to support visual interpretations.
 ________________________________________
 
 📊 Techniques & Methods Used   
-🧹 Data Understanding and Validation
-•	Reviewed metadata against the raw dataset
-•	Cleaned and relabeled categories for interpretability   
-📈 Visual Explorations
-•	Distribution plots for numerical variables
-•	Countplots for categorical variables
-•	Grouped bar charts and time series line plots
+🧹 Data Understanding and Validation   
+•	Reviewed metadata against the raw dataset   
+•	Cleaned and relabeled categories for interpretability      
+📈 Visual Explorations   
+•	Distribution plots for numerical variables   
+•	Countplots for categorical variables    
+•	Grouped bar charts and time series line plots   
 •	Correlation heatmap   
-🧪 Statistical Analysis
-•	Chi-Square Tests to assess association between categorical features and default status
-•	Mann-Whitney U Tests for comparing distributions of numerical predictors across default classes
-•	Outlier identification using boxplots and summary statistics   
-📉 Data Integrity Checks
-•	Missing value analysis
+🧪 Statistical Analysis    
+•	Chi-Square Tests to assess association between categorical features and default status   
+•	Mann-Whitney U Tests for comparing distributions of numerical predictors across default classes   
+•	Outlier identification using boxplots and summary statistics    
+📉 Data Integrity Checks   
+•	Missing value analysis   
 •	Duplicate record identification
-________________________________________
+________________________________________   
 🧠 Key Findings   
 • Repayment status variables (PAY_*) exhibit the strongest correlation with default, highlighting recent payment behavior as the most critical factor.   
 • Payment amounts (PAY_AMT_*) are moderately correlated with default risk — lower recent payments are associated with higher likelihood of default.   
